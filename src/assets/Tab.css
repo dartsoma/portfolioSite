@@ -8,7 +8,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    overflow-y: hidden; 
+    overflow-y: visible; 
 -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -17,7 +17,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -80%);
   margin-top: 25rem;
   transition:all 0.3s ease;
   opacity: 0;
@@ -26,6 +26,7 @@
 
 .page.active {
   opacity: 1;
+   transform: translate(-50%, -50%);
   pointer-events: auto;
 }
 
@@ -34,31 +35,42 @@ top: 20%;
 
 width: 70rem;
 height: 40rem;
-background: rgba(43, 1, 1, 0.76);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
-transition:all 0.2s ease-in-out;
+transition:all 0.4s ease-in-out;
+}
+
+.home .page .nameplate{
+position: absolute;
+transform: translate(0%,25%);
+
+}
+
+.home #name{
+position: absolute;
+transform: translate(12%,-18%);
+font-size: 4.7em;
 }
 
 
-
+.home #subtitle{
+position: absolute;
+transform: translate(20%,-67%);
+font-size: 3.9rem;
+}
 
 .projects .page{
 top: 20%;
 width: 70rem;
 height: 40rem;
 
-background: rgba(178, 201, 0, 0.53);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
 
-transition:all 0.2s ease-in-out;
+
+transition:all 0.4s ease-in-out;
 
     
 }
@@ -67,40 +79,37 @@ transition:all 0.2s ease-in-out;
 top: 20%;
 width: 70rem;
 height: 40rem;
-background: rgba(0, 201, 20, 0.47);
 border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
+
 
     
-transition:all 0.2s ease-in-out;
+transition:all 0.4s ease-in-out;
 }
 
 .faq .page{
 top: 20%;
 width: 70rem;
 height: 40rem;
-background: rgba(13, 0, 201, 0.53);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
 
-transition:all 0.2s ease-in-out;
+
+transition:all 0.4s ease-in-out;
 }
 .contact .page{
 top: 20%;
 width: 70rem;
 height: 40rem;
-background: rgba(201, 0, 181, 0.53);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
 
-transition:all 0.2s ease-in-out;
+
+transition:all 0.4s ease-in-out;
 }

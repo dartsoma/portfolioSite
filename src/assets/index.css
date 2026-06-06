@@ -6,9 +6,10 @@
   height: 100%;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-image: linear-gradient(to bottom,#AD2929 -100%,#631E1E);
+  background-image: linear-gradient(to top,#631E1E -100%,#AD2929);
   aspect-ratio: 16 / 9;
-  
+  zoom: 0.95;
+      overflow-x: hidden; 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

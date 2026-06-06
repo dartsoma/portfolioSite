@@ -4,7 +4,6 @@ import sidebar from "./assets/sidebar.png";
 
 function SideNav({ globalPage, setPageState, pageCount, tabNum }) {
   const home = ["Home", "About Me", "Resume"];
-  const homeId = tabNum === 0 ? "home-button" : <nav-button></nav-button>;
 
   return (
     <>

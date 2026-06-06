@@ -99,7 +99,7 @@
     height: auto;
     filter: contrast(0) brightness(2);
     transform: translate(-48.6%, -50%);
-    transition: all 0.35s ease;
+    transition: all 0.15s ease;
     z-index: 99;
     opacity: 0;
 }
@@ -111,7 +111,7 @@
     --underline-translateX: 100px;
     transform: translate(-50%, 140%);
     filter: contrast(0) brightness(2);
-    transition: all 0.35s ease;
+    transition: all 0.15s ease;
 }
 
 .top-nav .nav-text-active {

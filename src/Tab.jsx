@@ -1,12 +1,17 @@
 import "./assets/Tab.css";
 import { useRef, useEffect } from "react";
+import nameplate from "./assets/nameplate.png";
 
 function Tab({ globalTab, globalPage }) {
   // The pages of each tab will be
 
   const home = [
     <>
-      <h1 id="name">CHAD-SOMA FOSTER</h1>
+      <div className="nameplate">
+        <img src={nameplate} />
+      </div>
+      <h1 id="subtitle">Hello I'm</h1>
+      <h1 id="name">Chad-soma Foster</h1>
     </>,
     <>
       <h1> Content 2</h1>
