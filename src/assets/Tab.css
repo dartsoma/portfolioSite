@@ -31,7 +31,7 @@
 }
 
 .home .page {
-top: 20%;
+top: 15%;
 
 width: 70rem;
 height: 40rem;
@@ -50,7 +50,7 @@ transform: translate(0%,25%);
 .home #name{
 position: absolute;
 transform: translate(12%,-18%);
-font-size: 4.7em;
+font-size: 4.7rem;
 }
 
 
